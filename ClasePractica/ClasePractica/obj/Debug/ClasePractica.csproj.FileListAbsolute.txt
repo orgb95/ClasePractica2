@@ -1,0 +1,10 @@
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\bin\Debug\ClasePractica.exe.config
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\bin\Debug\ClasePractica.exe
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\bin\Debug\ClasePractica.pdb
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\obj\Debug\ClasePractica.csprojAssemblyReference.cache
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\obj\Debug\ClasePractica.Form1.resources
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\obj\Debug\ClasePractica.Properties.Resources.resources
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\obj\Debug\ClasePractica.csproj.GenerateResource.cache
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\obj\Debug\ClasePractica.csproj.CoreCompileInputs.cache
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\obj\Debug\ClasePractica.exe
+C:\Users\Sistemas-09\source\repos\ClasePractica\ClasePractica\obj\Debug\ClasePractica.pdb
