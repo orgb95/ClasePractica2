@@ -46,22 +46,13 @@
             this.cmbCargo = new System.Windows.Forms.ComboBox();
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtFiltrar = new System.Windows.Forms.TextBox();
             this.btnFiltrar = new System.Windows.Forms.Button();
+            this.txtFiltrar = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.tblShow = new System.Windows.Forms.DataGridView();
-            this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnApellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnCedula = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnCorreo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnProfesion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnCargo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnSalario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -74,7 +65,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.57585F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 81.42415F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 339F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 342F));
             this.tableLayoutPanel1.Controls.Add(this.label8, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
@@ -104,7 +95,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(402, 99);
+            this.label8.Location = new System.Drawing.Point(399, 99);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(42, 13);
             this.label8.TabIndex = 1;
@@ -149,7 +140,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(402, 0);
+            this.label5.Location = new System.Drawing.Point(399, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 13);
             this.label5.TabIndex = 4;
@@ -158,7 +149,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(402, 29);
+            this.label6.Location = new System.Drawing.Point(399, 29);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(54, 13);
             this.label6.TabIndex = 5;
@@ -167,7 +158,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(402, 59);
+            this.label7.Location = new System.Drawing.Point(399, 59);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(38, 13);
             this.label7.TabIndex = 6;
@@ -175,35 +166,35 @@
             // 
             // txtNombres
             // 
-            this.txtNombres.Location = new System.Drawing.Point(77, 3);
+            this.txtNombres.Location = new System.Drawing.Point(76, 3);
             this.txtNombres.Name = "txtNombres";
-            this.txtNombres.Size = new System.Drawing.Size(319, 20);
+            this.txtNombres.Size = new System.Drawing.Size(317, 20);
             this.txtNombres.TabIndex = 7;
             // 
             // txtApellidos
             // 
-            this.txtApellidos.Location = new System.Drawing.Point(77, 32);
+            this.txtApellidos.Location = new System.Drawing.Point(76, 32);
             this.txtApellidos.Name = "txtApellidos";
-            this.txtApellidos.Size = new System.Drawing.Size(319, 20);
+            this.txtApellidos.Size = new System.Drawing.Size(317, 20);
             this.txtApellidos.TabIndex = 8;
             // 
             // txtCedula
             // 
-            this.txtCedula.Location = new System.Drawing.Point(77, 62);
+            this.txtCedula.Location = new System.Drawing.Point(76, 62);
             this.txtCedula.Name = "txtCedula";
-            this.txtCedula.Size = new System.Drawing.Size(319, 20);
+            this.txtCedula.Size = new System.Drawing.Size(317, 20);
             this.txtCedula.TabIndex = 9;
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(77, 102);
+            this.txtTelefono.Location = new System.Drawing.Point(76, 102);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(319, 20);
+            this.txtTelefono.Size = new System.Drawing.Size(317, 20);
             this.txtTelefono.TabIndex = 10;
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(472, 3);
+            this.txtCorreo.Location = new System.Drawing.Point(469, 3);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(319, 20);
             this.txtCorreo.TabIndex = 11;
@@ -211,7 +202,7 @@
             // cmbProfesion
             // 
             this.cmbProfesion.FormattingEnabled = true;
-            this.cmbProfesion.Location = new System.Drawing.Point(472, 32);
+            this.cmbProfesion.Location = new System.Drawing.Point(469, 32);
             this.cmbProfesion.Name = "cmbProfesion";
             this.cmbProfesion.Size = new System.Drawing.Size(319, 21);
             this.cmbProfesion.TabIndex = 12;
@@ -219,14 +210,14 @@
             // cmbCargo
             // 
             this.cmbCargo.FormattingEnabled = true;
-            this.cmbCargo.Location = new System.Drawing.Point(472, 62);
+            this.cmbCargo.Location = new System.Drawing.Point(469, 62);
             this.cmbCargo.Name = "cmbCargo";
             this.cmbCargo.Size = new System.Drawing.Size(319, 21);
             this.cmbCargo.TabIndex = 13;
             // 
             // txtSalario
             // 
-            this.txtSalario.Location = new System.Drawing.Point(472, 102);
+            this.txtSalario.Location = new System.Drawing.Point(469, 102);
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(319, 20);
             this.txtSalario.TabIndex = 14;
@@ -240,13 +231,6 @@
             this.panel1.Size = new System.Drawing.Size(809, 48);
             this.panel1.TabIndex = 2;
             // 
-            // txtFiltrar
-            // 
-            this.txtFiltrar.Location = new System.Drawing.Point(15, 15);
-            this.txtFiltrar.Name = "txtFiltrar";
-            this.txtFiltrar.Size = new System.Drawing.Size(429, 20);
-            this.txtFiltrar.TabIndex = 0;
-            // 
             // btnFiltrar
             // 
             this.btnFiltrar.Location = new System.Drawing.Point(450, 3);
@@ -255,6 +239,13 @@
             this.btnFiltrar.TabIndex = 1;
             this.btnFiltrar.Text = "Filtrar";
             this.btnFiltrar.UseVisualStyleBackColor = true;
+            // 
+            // txtFiltrar
+            // 
+            this.txtFiltrar.Location = new System.Drawing.Point(15, 15);
+            this.txtFiltrar.Name = "txtFiltrar";
+            this.txtFiltrar.Size = new System.Drawing.Size(429, 20);
+            this.txtFiltrar.TabIndex = 0;
             // 
             // flowLayoutPanel1
             // 
@@ -285,6 +276,7 @@
             this.btnActualizar.TabIndex = 1;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // btnEliminar
             // 
@@ -294,78 +286,15 @@
             this.btnEliminar.TabIndex = 2;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // tblShow
             // 
             this.tblShow.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tblShow.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ColumnID,
-            this.ColumnName,
-            this.ColumnApellidos,
-            this.ColumnCedula,
-            this.ColumnTelefono,
-            this.ColumnCorreo,
-            this.ColumnProfesion,
-            this.ColumnCargo,
-            this.ColumnSalario});
             this.tblShow.Location = new System.Drawing.Point(3, 235);
             this.tblShow.Name = "tblShow";
-            this.tblShow.Size = new System.Drawing.Size(791, 250);
+            this.tblShow.Size = new System.Drawing.Size(791, 251);
             this.tblShow.TabIndex = 4;
-            // 
-            // ColumnID
-            // 
-            this.ColumnID.HeaderText = "ID";
-            this.ColumnID.Name = "ColumnID";
-            this.ColumnID.ReadOnly = true;
-            // 
-            // ColumnName
-            // 
-            this.ColumnName.HeaderText = "Nombres";
-            this.ColumnName.Name = "ColumnName";
-            this.ColumnName.ReadOnly = true;
-            // 
-            // ColumnApellidos
-            // 
-            this.ColumnApellidos.HeaderText = "Apellidos";
-            this.ColumnApellidos.Name = "ColumnApellidos";
-            this.ColumnApellidos.ReadOnly = true;
-            // 
-            // ColumnCedula
-            // 
-            this.ColumnCedula.HeaderText = "Cédula";
-            this.ColumnCedula.Name = "ColumnCedula";
-            this.ColumnCedula.ReadOnly = true;
-            // 
-            // ColumnTelefono
-            // 
-            this.ColumnTelefono.HeaderText = "Teléfono";
-            this.ColumnTelefono.Name = "ColumnTelefono";
-            this.ColumnTelefono.ReadOnly = true;
-            // 
-            // ColumnCorreo
-            // 
-            this.ColumnCorreo.HeaderText = "Correo";
-            this.ColumnCorreo.Name = "ColumnCorreo";
-            this.ColumnCorreo.ReadOnly = true;
-            // 
-            // ColumnProfesion
-            // 
-            this.ColumnProfesion.HeaderText = "Profesión";
-            this.ColumnProfesion.Name = "ColumnProfesion";
-            this.ColumnProfesion.ReadOnly = true;
-            // 
-            // ColumnCargo
-            // 
-            this.ColumnCargo.HeaderText = "Cargo";
-            this.ColumnCargo.Name = "ColumnCargo";
-            this.ColumnCargo.ReadOnly = true;
-            // 
-            // ColumnSalario
-            // 
-            this.ColumnSalario.HeaderText = "Salario";
-            this.ColumnSalario.Name = "ColumnSalario";
-            this.ColumnSalario.ReadOnly = true;
             // 
             // Form1
             // 
@@ -416,15 +345,6 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.DataGridView tblShow;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnApellidos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCedula;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnTelefono;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCorreo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnProfesion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnCargo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnSalario;
     }
 }
 

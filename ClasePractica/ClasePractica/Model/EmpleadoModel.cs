@@ -9,17 +9,20 @@ namespace ClasePractica.Model
 {
     public class EmpleadoModel
     {
-        private Empleado[] empleados;
+        public Empleado[] empleados;
+        public Empleado temp = new Empleado();
         public EmpleadoModel() { }
 
-        public void AddElements(Empleado empleado) {
-            if ( empleados == null)
+        public void AddElements(Empleado empleado)
+        {
+            if (empleados == null)
             {
                 empleados = new Empleado[1];
                 empleados[0] = empleado;
                 return;
             }
-            Empleado[] temporal = new Empleado[empleados.Length +1];
+
+            Empleado[] temporal = new Empleado[empleados.Length + 1];
             Array.Copy(empleados, temporal, empleados.Length);
             temporal[temporal.Length - 1] = empleado;
             empleados = temporal;
